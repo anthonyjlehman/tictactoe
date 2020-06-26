@@ -1,4 +1,25 @@
 h1 { 
-    color: red;
-    
+    color: goldenrod;
+
 }
+body {
+    background-color: blueviolet;
+}
+
+#Board {
+    display: grid;
+    grid-template-columns: 75px 75px 75px;
+    background-color: blueviolet;
+    width: 0px;
+}
+
+.Square {
+    background-color: goldenrod;
+    border: black 15mm;
+    width: 75px;
+    height: 75px;
+    margin-left: 50px;
+    color: goldenrod;
+}
+
+
