@@ -21,6 +21,10 @@ let turn = 'player1'
 let player1Array = []
 let player2Array = []
 
+function reset(){
+    window.location.reload();
+}
+
 function backgroundChangeColor(square){
     if(turn === 'player1'){
     square.style.color = 'gold'
@@ -40,6 +44,7 @@ function checkWinner(x){
     console.log(playerArray)
     if (winningCombo.includes(playerArray)){
         alert(`${turn} wins`)
+
         
     }
 }
